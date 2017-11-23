@@ -381,6 +381,15 @@ print("Oneliner to string with Cython")
 |------|------|
 |   a  | table|
 
+
+
+| Pandas tocsv      | 2.98 s | 4min 49s |2min 13s|
+| Numpy savetxt      | 770 ms |   1min 15s   |   1min 30s |
+| Oneliner with numpy tofile |   2.2 s    |   3min 38s  |36.6 s|
+| Oneliner to string with Pyton f.write |   2.21    |    3min 55s |53.4 s|
+| Oneliner to string with Cython |   2.4 s    |   3min 28s  |37.4 s|
+
+
 | Methods       | DataFrame (100000,20)           | DataFrame (10000000,20)  | DataFrame (50000000,3) (String)|
 | :------------- |:-------------:|: -----:|: -----:|
 | Pandas tocsv      | 2.98 s | 4min 49s |2min 13s|

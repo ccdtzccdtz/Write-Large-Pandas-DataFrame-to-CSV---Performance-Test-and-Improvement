@@ -385,6 +385,10 @@ print("Oneliner to string with Cython")
 | Oneliner to string with Pyton f.write |   2.21    |    3min 55s |53.4 s
 | Oneliner to string with Cython |   2.4 s    |   3min 28s  |37.4 s
 
+| This | is   |
+|------|------|
+|   a  | table|
+
 ## Test Environment
 
 Window 10 Pro 

@@ -379,7 +379,7 @@ print("Oneliner to string with Cython")
 
 
 
-| Methods       | DataFrame (100000,20)           | DataFrame (10000000,20)  | DataFrame (50000000,3) (String) |
+| Methods       | DataFrame (100000,20)           | DataFrame (10M,20)  | DataFrame (50M,3) (String) |
 | :------------- | :-------------: | :-----: | :-----: |
 | Pandas tocsv      | 2.98 s | 4min 49s |2min 13s|
 | Numpy savetxt      | 770 ms |   1min 15s   |   1min 30s |

@@ -384,7 +384,7 @@ print("Oneliner to string with Cython")
 
 
 | Pandas tocsv      | 2.98 s | 4min 49s |2min 13s|
-| ------------- |-------------| -----| -----|
+| :------------- |:-------------:|: -----| -----|
 | Numpy savetxt      | 770 ms |   1min 15s   |   1min 30s |
 | Oneliner with numpy tofile |   2.2 s    |   3min 38s  |36.6 s|
 | Oneliner to string with Pyton f.write |   2.21    |    3min 55s |53.4 s|
